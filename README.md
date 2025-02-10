@@ -1,3 +1,4 @@
+## Problem
 A bank needs to manage different states of customer accounts, including active, suspended, and closed. Each state has specific rules and restrictions regarding allowed operations, and accounts have associated attributes like account number and balance.  
 Active accounts: Allow deposits and withdrawals.  
 Suspended accounts: Disallow deposits and withdrawals transactions, but allow viewing account information.  
@@ -91,3 +92,6 @@ public class AccountTest(){
       myAccount.deposit(1000.0);// Show message "You cannot deposit on closed account!". Call the toString() to show current balance and account number.
   }
 }
+```
+## UML
+![Baltazar-state-design-pattern-UML](https://github.com/user-attachments/assets/b6979c9c-9c9a-47e2-a860-5fe3bcf4666a)
